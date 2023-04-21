@@ -1,0 +1,14 @@
+{
+  "name": "vrchat-bot",
+  "version": "1.0.0",
+  "description": "VRChat invite bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "vrchatapi": "file:./vrchatapi",
+    "winston": "^3.3.3"
+  }
+}
